@@ -36,6 +36,10 @@ group :development, :test do
   # 2 gems below are supposed to fix git push error
   gem 'taps'
   gem 'rvm'
+  
+  # 2 more gems that are supposed to fix the issue
+  gem 'thin'
+  gem 'pg'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
