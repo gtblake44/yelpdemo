@@ -32,14 +32,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development, :test do
-  # 2 gems below are supposed to fix git push error
+# 2 gems below are supposed to fix git push error
   gem 'taps'
   gem 'rvm'
   
   # 2 more gems that are supposed to fix the issue
   gem 'thin'
   gem 'pg'
+
+group :development, :test do
+  
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
